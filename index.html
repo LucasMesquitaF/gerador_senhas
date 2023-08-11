@@ -40,6 +40,26 @@
                 Quer ajuda para criar uma senha segura?
                 <span id="generate-password">Clique aqui.</span>
             </p>
+            <div id="password-options">
+                <p>Selecione as opções que você deseja</p>
+                <div id="option">
+                    <p>Quantidade de caracteres:</p>
+                    <input id='char-number' type="number" min="6" value="10">
+                </div>
+                <div id="option">
+                    <p>Letras:</p>
+                    <input id="hasLetter" type="checkbox">
+                </div>
+                <div id="option">
+                    <p>Números:</p>
+                    <input id='hasNumber' type="checkbox">
+                </div>
+                <div id="option">
+                    <p>Símbolos:</p>
+                    <input id='hasSymbol' type="checkbox">
+                </div>
+                <input id="create-password" type="submit" value="Criar senha">
+            </div>
             <div id="generated-password">
                 <p>Aqui está a sua senha</p>
                 <h4></h4>
